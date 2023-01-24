@@ -94,4 +94,54 @@ header nav ul li:last-of-type a {
     color: #C0C0C0;
     padding-bottom: 70px;
 }
+.help{
+    background: #000000;
+}
+.container_help{
+    max-width: 571px;
+    margin: auto;
+    padding-top: 113px;
+    padding-bottom: 100px;
+}
+.help_question{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: normal;
+}
+.help_text{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: normal;
+    color: #C0C0C0;
+    margin-top: 15px;
+}
+.btn_help{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 22px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    line-height: 20px;
+    text-decoration: none;
+    background: #FFFFFF;
+    border-radius: 14px;
+    padding: 11px 20px;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    max-width: 154px;
+}
+.help_img{
+    margin-right: 6px;
+}
 
