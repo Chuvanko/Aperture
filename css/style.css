@@ -49,12 +49,10 @@ header nav ul li:last-of-type a {
 .main_banner{
     background-image: url("../images/IMAGE.jpg");
     background-size: cover;
-    height: calc(100vh - 10px);
+    padding-bottom: 70px;
+    padding-top: 460px;
 }
 .secondary_caption{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -64,13 +62,9 @@ header nav ul li:last-of-type a {
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #C0C0C0;
-    padding-top: 461px;
-    padding-bottom: 1px;
+    margin-bottom: 1px;
 }
 .main_caption{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-size: 54px;
@@ -81,9 +75,7 @@ header nav ul li:last-of-type a {
     padding-bottom: 18px;
 }
 .main_text{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     max-width: 580px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -92,16 +84,16 @@ header nav ul li:last-of-type a {
     line-height: 20px;
     text-align: center;
     color: #C0C0C0;
-    padding-bottom: 70px;
 }
 .help{
     background: #000000;
+    padding-top: 113px;
+    padding-bottom: 100px;
 }
 .container_help{
     max-width: 571px;
     margin: auto;
-    padding-top: 113px;
-    padding-bottom: 100px;
+    text-align: center;
 }
 .help_question{
     font-family: 'Poppins', sans-serif;
@@ -121,14 +113,13 @@ header nav ul li:last-of-type a {
     font-weight: normal;
     color: #C0C0C0;
     margin-top: 15px;
+    margin-bottom: 22px;
 }
 .btn_help{
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
-    margin-top: 22px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     line-height: 20px;
