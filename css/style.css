@@ -51,6 +51,7 @@ header nav ul li:last-of-type a {
     background-size: cover;
     padding-bottom: 70px;
     padding-top: 460px;
+    position: relative;
 }
 .secondary_caption{
     font-family: 'Poppins', sans-serif;
@@ -115,7 +116,7 @@ header nav ul li:last-of-type a {
     margin-top: 15px;
     margin-bottom: 22px;
 }
-.btn_help{
+.btm_help{
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -130,9 +131,24 @@ header nav ul li:last-of-type a {
     color: #000000;
     font-size: 16px;
     letter-spacing: 0.4px;
-    max-width: 154px;
 }
 .help_img{
     margin-right: 6px;
 }
-
+.main_banner .bottom_icon{
+    position: absolute;
+    right: 40px;
+    bottom: 41px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.main_banner .bottom_icon li{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 16px;
+}
