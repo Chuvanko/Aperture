@@ -53,7 +53,7 @@ header nav ul li:last-of-type a {
     padding-top: 460px;
     position: relative;
 }
-.secondary_caption{
+.container h3{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -65,7 +65,7 @@ header nav ul li:last-of-type a {
     color: #C0C0C0;
     margin-bottom: 1px;
 }
-.main_caption{
+.container h1{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-size: 54px;
@@ -75,7 +75,7 @@ header nav ul li:last-of-type a {
     color: #FFFFFF;
     padding-bottom: 18px;
 }
-.main_text{
+.container p{
     margin: auto;
     max-width: 580px;
     font-family: 'Poppins', sans-serif;
@@ -96,7 +96,7 @@ header nav ul li:last-of-type a {
     margin: auto;
     text-align: center;
 }
-.help_question{
+.container_help h2{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-size: 40px;
@@ -105,7 +105,7 @@ header nav ul li:last-of-type a {
     color: #FFFFFF;
     font-weight: normal;
 }
-.help_text{
+.container_help h3{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-size: 24px;
@@ -116,7 +116,7 @@ header nav ul li:last-of-type a {
     margin-top: 15px;
     margin-bottom: 22px;
 }
-.btm_help{
+.container_help a{
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -135,7 +135,7 @@ header nav ul li:last-of-type a {
 .help_img{
     margin-right: 6px;
 }
-.main_banner .bottom_icon{
+.bottom_icon{
     position: absolute;
     right: 40px;
     bottom: 41px;
@@ -143,7 +143,7 @@ header nav ul li:last-of-type a {
     display: flex;
     align-items: center;
 }
-.main_banner .bottom_icon li{
+.bottom_icon li{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-size: 12px;
@@ -151,4 +151,115 @@ header nav ul li:last-of-type a {
     color: #FFFFFF;
     text-decoration: none;
     margin-left: 16px;
+}
+.bottom_icon li:before{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/icon_1.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    position: relative;
+    top: 7px;
+}
+.bottom_icon li:nth-child(2):before{
+    background-image: url("../images/icon_2.svg");
+}
+.bottom_icon li:nth-child(3):before{
+    background-image: url("../images/icon_3.svg");
+    width: 32px;
+}
+.bottom_icon li:nth-child(4):before{
+    background-image: url("../images/icon_4.svg");
+    width: 10px;
+}
+.photo_1{
+    background-image: url("../images/IMAGE-1.jpg");
+    background-size: cover;
+    position: relative;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.container_photo_1{
+    max-width: 298px;
+    margin-right: 62px;
+}
+.container_photo_1 h2{
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.container_photo_1 p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+.photo_2{
+    background-image: url("../images/IMAGE-2.jpg");
+    background-size: cover;
+    min-height: 600px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.container_photo_2{
+    max-width: 273px;
+    margin-right: 87px;
+}
+.container_photo_2 h2{
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.container_photo_2 p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+.photo_3{
+    background-image: url("../images/IMAGE-3.jpg");
+    background-size: cover;
+    min-height: 600px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.container_photo_3{
+    max-width: 254px;
+    margin-right: 106px;
+}
+.container_photo_3 h2{
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.container_photo_3 p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
 }
