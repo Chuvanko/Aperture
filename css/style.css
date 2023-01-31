@@ -8,7 +8,7 @@ header{
 }
 .container{
     max-width: 1200px;
-    margin: auto;
+    margin: inherit;
 }
 header .container{
     padding: 0 20px 0 32px;
@@ -52,6 +52,9 @@ header nav ul li:last-of-type a {
     padding-bottom: 70px;
     padding-top: 460px;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 .container h3{
     font-family: 'Poppins', sans-serif;
@@ -262,4 +265,87 @@ header nav ul li:last-of-type a {
     font-size: 14px;
     line-height: 20px;
     color: #C0C0C0;
+}
+.specialized{
+    padding-bottom: 84px;
+    padding-top: 112px;
+    background: #000000;
+}
+.specialized h2{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+.specialized h3{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    font-weight: normal;
+    margin-bottom: 42px;
+}
+.specialized_photo{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+}
+.specialized_photo_1{
+    max-width: 576px;
+    position: relative;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+.spec_text{
+    position: absolute;
+    width: 100%;
+    left: 30px;
+    bottom: 30px;
+}
+.spec_text h4{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.spec_text p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+.spec_text a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    line-height: 20px;
+    text-decoration: none;
+    background: #FFFFFF;
+    border-radius: 14px;
+    padding: 11px 20px;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+}
+.spec_1{
+    display: block;
+    width: 100%;
 }
