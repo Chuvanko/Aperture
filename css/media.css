@@ -3,9 +3,59 @@
         justify-content: space-around;
     }
 }
+@media only screen and (max-width: 1100px){
+    .container_clients{
+        max-width: 1000px;
+    }
+    .info p{
+        max-width: 400px;
+    }
+}
+@media only screen and (max-width: 1020px){
+    .container_clients{
+        max-width: 800px;
+    }
+}
+@media only screen and (max-width: 970px){
+    .container{
+        padding: 0 12px;
+    }
+}
 @media only screen and (max-width: 880px){
     header nav ul li{
         margin-left: 10px;
+    }
+}
+@media only screen and (max-width: 868px){
+    .container_clients{
+        max-width: 700px;
+    }
+    .left_logo p{
+        max-width: 300px;
+    }
+}
+@media only screen and (max-width: 798px){
+    .tools .img_bg{
+        position: relative;
+        width: 100%;
+        height: 400px;
+    }
+    .tools .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .info p{
+        text-align: center;
+    }
+    .info h4{
+        text-align: center;
+    }
+    .info h3{
+        text-align: center;
+    }
+    .info {
+        text-align: center;
     }
 }
 @media only screen and (max-width: 771px){
@@ -18,6 +68,159 @@
         display: none;
     }
     .tools .img_bg{
+        position: relative;
+        width: 100%;
+        height: 400px;
+    }
+}
+@media only screen and (max-width: 764px){
+    .left_logo p{
+        max-width: 200px;
+        font-size: 12px;
+    }
+    .clients_logo{
+        display: flex;
+        flex-direction: column;
+    }
+    .clients{
+        margin-bottom: 50px;
+    }
+    .past_clients{
+        padding-bottom: 119px;
+    }
+    .right_sub-menu{
+        display: flex;
+        flex-direction: column;
+    }
+    .left_logo p{
+        max-width: 500px;
+    }
+}
+@media only screen and (max-width: 656px){
+    .left_logo p{
+        max-width: 180px;
+        font-size: 10px;
+    }
+    .left_logo h4{
+        font-size: 12px;
+        max-width: 130px;
+    }
+    .right_sub-menu li:first-of-type{
+        font-size: 12px;
+    }
+    .right_sub-menu li a{
+        font-size: 11px;
+    }
+    footer form{
+        max-width: 300px;
+        width: 100%;
+        height: 40px;
+        padding: 11px 6px;
+    }
+    footer form button{
+        height: 25px;
+        width: 50px;
+    }
+}
+@media only screen and (max-width: 571px){
+    .container_help h2{
+        font-size: 30px;
+    }
+    .container_help h3{
+        font-size: 20px;
+    }
+    .spec_text p{
+        font-size: 11px;
+    }
+    .main_banner .container p{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 472px){
+    .container_help h2{
+        font-size: 20px;
+    }
+    .container_help h3{
+        font-size: 15px;
+    }
+    .spec_text p{
+        font-size: 10px;
+    }
+    .main_banner .container p{
+        font-size: 10px;
+    }
+    .main_banner .container h1{
+        font-size: 30px;
+    }
+    .specialized h2{
+        font-size: 30px;
+    }
+    .specialized h3{
+        font-size: 15px;
+    }
+    .info h3{
+        font-size: 20px;
+    }
+    .info p{
+        font-size: 10px;
+    }
+    .container_clients h3{
+        font-size: 20px;
+    }
+    .container_clients h4{
+        font-size: 15px;
+    }
+    footer form{
+        max-width: 200px;
+        width: 100%;
+        height: 30px;
+        padding: 11px 6px;
+    }
+    footer form button{
+        height: 15px;
+        width: 10px;
+    }
+    .container_social p{
+        font-size: 12px;
+        max-width: 200px;
+    }
+}
+@media only screen and (max-width: 426px) {
+    .spec_text p{
+        font-size: 10px;
+        max-width: 250px;
+    }
+}
+@media only screen and (max-width: 390px) {
+    footer .right_sub-menu ul:first-of-type{
+        margin-right: 0px;
+    }
+    footer .right_sub-menu ul:last-of-type{
+        margin-right: 0px;
+    }
+}
+@media only screen and (max-width: 352px) {
+    .left_logo p{
+        max-width: 140px;
+    }
+    .left_logo h4{
+        font-size: 10px;
+        max-width: 100px;
+    }
+    footer form{
+        max-width: 190px;
+        width: 100%;
+        height: 30px;
+        padding: 5px 2px;
+    }
+    footer form button{
+        height: 0px;
+        width: 0px;
+    }
+}
+@media only screen and (max-width: 328px) {
 
+    .bottom_icon li{
+        font-size: 10px;
     }
 }
