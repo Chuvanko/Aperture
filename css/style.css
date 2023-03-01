@@ -16,18 +16,18 @@ header .container{
     justify-content: space-between;
     align-items: center;
 }
-header nav ul{
+header .nav ul{
     display: flex;
     list-style: none;
     align-items: center;
 }
-header nav ul li{
+header .nav ul li{
     margin-left: 32px;
 }
-header nav ul li:first-of-type{
+header .nav ul li:first-of-type{
     margin-right: 24px;
 }
-header nav ul li a{
+header .nav ul li a{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-size: 15px;
@@ -35,10 +35,10 @@ header nav ul li a{
     color: #FFFFFF;
     text-decoration: none;
 }
-header nav ul li:first-of-type a{
+header .nav ul li:first-of-type a{
     font-size: 13px;
 }
-header nav ul li:last-of-type a {
+header .nav ul li:last-of-type a {
     background: #FFFFFF;
     border-radius: 14px;
     padding: 11px 20px;
@@ -600,4 +600,44 @@ footer form button{
 .owl-stage{
     display: flex;
     align-items: center;
+}
+.owl-nav .owl-prev{
+    position: absolute;
+    left: -10px;
+    top: 30px;
+}
+.owl-nav .owl-prev:before{
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+    content: "\f053";
+    color: #FFFFFF;
+    font-size: 30px;
+}
+.owl-nav .owl-next{
+    position: absolute;
+    right: -10px;
+    top: 30px;
+}
+.owl-nav .owl-next:before{
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+    content: "\f053";
+    color: #FFFFFF;
+    font-size: 30px;
+    transform: rotate(180deg);
+    display: inline-block;
+}
+.ui-dialog{
+    background-color: black;
+}
+.ui-dialog-titlebar{
+    background-color: black;
+    color: #FFFFFF;
+}
+.ui-dialog-content{
+    color: #FFFFFF;
+}
+.logo{
+    position: relative;
+    z-index: 3;
 }
